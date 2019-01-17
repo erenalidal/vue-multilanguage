@@ -129,8 +129,7 @@ class MultiLanguage {
     if( !lang ) return ''
     let match = ''
     Object.keys(this.languages).forEach((path) => {
-      path = path.toLowerCase()
-      if(lang.toLowerCase() === path)
+      if(lang.toLowerCase() === path.toLowerCase())
         match = path
     })
 
