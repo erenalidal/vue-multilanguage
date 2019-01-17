@@ -5,7 +5,6 @@ demo/npm-debug.log
 demo/yarn-error.log
 .DS_Store
 node_modules/
-dist/
 npm-debug.log
 yarn-error.log
 *.sublime*
